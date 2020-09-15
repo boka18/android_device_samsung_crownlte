@@ -39,6 +39,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 #Havoc INITIALIZE
 export HAVOC_BUILD_TYPE=Official
+HAVOC_MAINTAINER := Adrian Sian (garett_09)
+HAVOC_GROUP_URL := https://t.me/havoc9810
 
 #Disable debbuging
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
