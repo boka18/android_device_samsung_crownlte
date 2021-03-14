@@ -23,12 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/crownlte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := crownlte
-PRODUCT_NAME := havoc_crownlte
+PRODUCT_NAME := corvus_crownlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N960F
 PRODUCT_MANUFACTURER := samsung
@@ -37,10 +37,9 @@ PRODUCT_PDA_MODEL_VERSION := XXU6FTK1
 PRODUCT_PDA_VERSION := $(PRODUCT_PDA_MODEL)$(PRODUCT_PDA_MODEL_VERSION)
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-#Havoc INITIALIZE
-#export HAVOC_BUILD_TYPE=Official
-HAVOC_MAINTAINER := Adrian Sian (garett_09)
-HAVOC_GROUP_URL := https://t.me/havoc9810
+# Corvus INITIALIZE
+#export CORVUS_BUILD_TYPE=Official
+CORVUS_MAINTAINER := Boris Sarafimov (boka18)
 
 #Disable debbuging
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false

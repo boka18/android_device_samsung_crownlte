@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_crownlte.mk
+    $(LOCAL_DIR)/corvus_crownlte.mk
 
 COMMON_LUNCH_CHOICES := \
-     havoc_crownlte-userdebug \
-     havoc_crownlte-eng \
-     havoc_crownlte-user
+     corvus_crownlte-userdebug \
+     corvus_crownlte-eng \
+     corvus_crownlte-user
